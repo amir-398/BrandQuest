@@ -1,0 +1,69 @@
+.section_1 {
+  background-color: #000;
+  width: 100%;
+  height: 100vh;
+}
+.section_1 .home_img {
+  position: absolute;
+  right: 0;
+}
+.section_1 h1,
+.section_1 h2 {
+  color: #fff;
+  font-family: poppinsBold;
+  position: relative;
+}
+.section_1 h1 {
+  font-size: 2rem;
+  margin-left: 1rem;
+}
+.section_1 h2 {
+  font-size: 1rem;
+  margin-left: 1rem;
+}
+.section_1 .form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 90%;
+}
+.section_1 .form h4 {
+  color: #fff;
+  font-family: poppinsBold;
+}
+.section_1 .form input {
+  margin-bottom: 5px;
+  padding: 10px;
+  border: none;
+  outline: none;
+  border-radius: 4px;
+  font-size: 1rem;
+  color: #000;
+}
+.section_1 .form .addIconContainer {
+  display: flex;
+  justify-content: center;
+  cursor: pointer;
+}
+.section_1 .startPlayBtn {
+  position: absolute;
+  bottom: 10px;
+  left: 50%;
+  transform: translateX(-50%);
+  text-align: center;
+  background-color: #000;
+  color: #fff;
+  font-family: poppinsBold;
+  font-size: 1rem;
+  padding: 8px 30px;
+  border: none;
+  border-radius: 4px;
+  transition: all 0.3s ease;
+  background-color: #6c7afe;
+}
+
+/*# sourceMappingURL=home.module.css.map */
